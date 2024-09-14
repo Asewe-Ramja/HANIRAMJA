@@ -1,0 +1,569 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-bar .certification p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-header .logo img {
+    height: 60px;
+}
+
+.main-header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.notice p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Hero Section Animation */
+.hero-section .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 100%; /* Start off-screen */
+  transform: translateY(-50%);
+  animation: slideIn 10s linear infinite, colorChange 10s linear infinite;
+}
+
+@keyframes slideIn {
+  0% {
+      left: 100%; /* Start off-screen to the right */
+  }
+  50% {
+      left: 0; /* Centered on the screen */
+  }
+  100% {
+      left: -100%; /* Move off-screen to the left */
+  }
+}
+
+@keyframes colorChange {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.hero-section .hero-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-section .hero-text p {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mission-card {
+  background-color: #f8d7da; /* Light red */
+}
+
+.goal-card {
+  background-color: #d4edda; /* Light green */
+}
+
+.vision-card {
+  background-color: #d1ecf1; /* Light blue */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+.admin-block-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-block-card .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+.training-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.training-card .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+.training-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  color: #6d6c7d;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* History Section Styles */
+.history-section {
+  background-color: #f9f9f9;
+}
+
+.history-section img {
+  border-radius: 5px;
+}
+
+.history-section h1, .history-section h2 {
+  color: #333;
+}
+
+.history-section p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* Objectives Section Styles */
+.objectives-section h1, .core-values-section h1 {
+  color: #333;
+}
+
+.objectives-section ul li h3, .core-values-section h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.objectives-section ul li p, .core-values-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+.core-values-section {
+  background-color: #f9f9f9;
+}
+
+.core-values-section .text-success {
+  color: #28a745 !important;
+}
+/* Management Team Section Styles */
+.management-team-section {
+  background-color: #f9f9f9;
+}
+
+.management-team-section .card {
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.management-team-section .card:hover {
+  transform: scale(1.05);
+}
+
+.management-team-section .card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.management-team-section .card-text {
+  color: #555;
+}
+
+.management-team-section .list-inline-item a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.management-team-section .list-inline-item a:hover {
+  color: #007bff;
+}
+/* General Styling for the Departments Section */
+.departments-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.departments-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+/* Department Cards Styling */
+.departments-section .card {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 30px 15px;
+}
+
+.departments-section .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.departments-section .card .card-body {
+  padding: 0;
+}
+
+.departments-section .card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #007bff;
+}
+
+.departments-section .card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.departments-section .card i {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .departments-section h1 {
+      font-size: 2rem;
+  }
+
+  .departments-section .card {
+      margin-bottom: 30px;
+  }
+}
+/* Dean of Students Section */
+.dean-section {
+  background-color: #f7f7f7;
+}
+
+.dean-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.dean-section img {
+  border: 3px solid #007bff;
+}
+
+.dean-section h4 {
+  font-size: 1.75rem;
+  color: #007bff;
+}
+
+.dean-section p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.dean-section a i {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.dean-section a i:hover {
+  color: #007bff;
+}
+
+/* General Styling for Career Section */
+.career-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.career-section h1, .career-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.career-section h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.career-section p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Job and Internship List Styling */
+.job-list .job-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-list .job-item:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.job-list .job-item h4 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.job-list .job-item p {
+  margin: 0;
+}
+
+.job-list .btn {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.job-list .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .career-section h1, .career-section h2 {
+      font-size: 2rem;
+  }
+}
+/* Contact Section */
+.contact-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.contact-section h1, .contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section ul li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.contact-section ul li i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Form Styling */
+.contact-section .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-section input, 
+.contact-section textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact-section textarea {
+  resize: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-section h1, .contact-section h2 {
+      font-size: 2rem;
+  }
+}
